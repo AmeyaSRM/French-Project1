@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px; 
+            color: #001524; 
+            background-color: #FDE5D4;
+        }
+        header {
+            text-align: center; 
+            padding: 20px; 
+            background-color: #5E3023; 
+            color: #FDE5D4; 
+        }
+        h1 {
+            text-align: center;
+            color: #FDE5D4; 
+            background-color: #5E3023;
+            padding: 30px 20px;
+            margin: 0;
+            font-size: 48px;
+        }
+        p {
+            padding: 20px; 
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+            background-color: #FDE5D4; ;
+            margin-top: 20px; 
+        }
+        h3 a {
+            text-decoration: none;
+            color: #007bff; /* Light blue color for links */
+        }
+        h3 a:visited {
+            color: #007bff; /* Light blue color for visited links */
+        }
+        #map-container {
+            text-align: center; /* Center the container */
+        }
+        @media only screen and (max-width: 768px) {
+            h1 {
+              font-size: 24px;
+            }
+            h2, h4 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 16px;
+            }
+            .new {
+              font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Regional Cuisine</h1>
+    </header>
+    <p>
+      France is a country with some of the most delicious and highly regarded cuisine in the world. French cuisine is one of the biggest attractions to visitors to the country, and for locals, enjoying their local food is a way of life. Not only is French cuisine known for its finesse and flavour, it also has an amazing breadth of regional specialities that reflect the culture, history and local produce of each region. The livestock and farmland, the climate, the types of fish in the sea, local cheeses and wines, even the influence of neighbouring countries all helped form France’s incredible array of recipes.
+
+      To break down the many dishes of France, it’s a good idea to look at the different regions. France is divided into 13 administrative regions in metropolitan France on continental Europe, and five overseas regions. Each is a mixture of different cultural identities, history, and food culture. Some dishes were created with limited ingredients during sieges or wars, some created to maximise leftover ingredients, and others were happy accidents in modern kitchens or created to celebrate events. Some dishes were born in that particular region; others were adopted by neighbours and popularised locally.
+  </p>
+  <br><br><br>
+    <div id="map-container">
+        <img src="frenchmap.jpg" usemap="#image_map">
+        <map name="image_map">
+            <area alt="Hauts-De-France" title="Hauts-De-France" href="hauts.html" coords="375,288,504,329" shape="rect">
+            <area alt="Grand Est" title="Grand Est" href="grand.html" coords="529,368,626,405" shape="rect">
+            <area alt="Normandy" title="Normandy" href="normandy.html" coords="230,351,334,390" shape="rect">
+            <area alt="Brittany" title="Brittany" href="brittany.html" coords="94,404,174,437" shape="rect">
+            <area alt="Pays De La Loire" title="Pays De La Loire" href="pays.html" coords="177,454,307,481" shape="rect">
+            <area alt="Bourgogne" title="Bourgogne" href="bourgogne.html" coords="452,460,559,495" shape="rect">
+            <area alt="centre" title="centre" href="centre.html" coords="335,451,409,501" shape="rect">
+            <area alt="Nouvelle-Aquitance" title="Nouvelle-Aquitance" href="nouvelle.html" coords="232,602,397,642" shape="rect">
+            <area alt="Auvergne" title="Auvergne" href="auvergne.html" coords="422,621,619,659" shape="rect">
+            <area alt="Provence" title="Provence" href="provence.html" coords="540,713,681,748" shape="rect">
+            <area alt="" title="" href="occitaine.html" coords="345,768,461,795" shape="rect">
+            <area alt="corsica" title="corsica" href="corsica.html" coords="724,856,793,885" shape="rect">
+            <area alt="Ile De France" title="Ile De France" href="ile.html" coords="360,368,472,403" shape="rect">
+        </map>
+    </div>
+    
+</body>
+</html>
